@@ -1,0 +1,7 @@
+enum TRANSACTION_TYPE {
+  SENT = 0,
+  RECEIVED = 1,
+  FAILED = 2,
+}
+
+export { TRANSACTION_TYPE };
